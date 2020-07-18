@@ -1,0 +1,199 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-banner {
+	position: absolute;
+	top: 110px;
+	left: 390px;
+	font-size: 30px;
+}
+
+nav {
+	position: absolute;
+	top: 200px;
+	right: 350px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+/*adcionando eventos ao passar o mouse sobre os elementos com css */
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+main {
+	background: #F0F0F1;
+}
+
+.banner {
+	width: 100%;
+	height: 5%;
+}
+
+.principal {
+	font-style: italic;
+	padding: 3em 0;
+	background: #F0F0F1;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal-contato {
+	font-style: italic;
+	padding: 3em 0;
+	background: #F0F0F1;
+	width: 940px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 20px 0 1em;
+	font-weight: bold;
+	clear: left;
+}
+
+.foto {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.formacao-academica {
+	padding: 3em 0;
+	background: #F0F0F2;
+}
+
+.itens-academico {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.sub-itens-academico {
+	margin: 0 0 0 20px;
+	line-height: 1.5;
+}
+
+.formacao-complementar {
+	padding: 3em 0;
+	background: linear-gradient(#F0F0F1, #E6E6E8);
+}
+
+.conteudo-formacao {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-formacao {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens-imagem {
+	width: 80px;
+	float: left;
+	opacity: 1;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+#html-css-js-imagem {
+	width: 100px;
+	height: 87px;
+}
+
+.texto-aprendizado {
+	margin: 20px auto;
+
+}
+
+footer {
+	text-align: center;
+	background: #E1E1E3;
+	padding: 40px 0;
+}
+
+.footer-logo {
+	width: 80px;
+}
+
+.copyright {
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
+/*aqui começa a pagina de contato */
+.conteudo-contato {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.forma-de-contato {
+	width: 90%;
+	display: inline;
+	vertical-align: top;
+}
+
+.contato {
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+.contato a {
+	line-height: 1.5;
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.contato a:hover {
+	color: #C78C19;
+	transform: scale(1.5);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*adaptando o site para dispositivos mobile */
+@media screen and (max-width: 480px) {
+		.caixa, .principal, .formacao-academica, .formacao-complementar
+	}
